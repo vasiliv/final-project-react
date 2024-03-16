@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 const Details = ({ carsData }) => {
   const { id } = useParams();
   //console.log(carsData);
-  const item = carsData.find((item) => item.id === id);  
+  const item = carsData.find((item) => item.id == id);  
   console.log(item);
   if (!item) {
     return <div>Item not found</div>;
