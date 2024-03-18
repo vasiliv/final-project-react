@@ -44,6 +44,7 @@ function App() {
                       color={item.color}
                       price={item.price}
                       description={item.description}
+                      image = {item.image}
                     />
                   ))}
                 />
