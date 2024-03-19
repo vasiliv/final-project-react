@@ -4,7 +4,7 @@ const Details = ({ carsData }) => {
   const { id } = useParams();
   //console.log(carsData);
   const item = carsData.find((item) => item.id == id);  
-  console.log(item);
+  //console.log(item);
   if (!item) {
     return <div>Item not found</div>;
   }
