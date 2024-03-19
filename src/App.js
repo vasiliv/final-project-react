@@ -26,27 +26,28 @@ function App() {
     <div>
       {currentUser ? (
         <div>
-          {/* yAfter successful login */}
-          {/* <h1>Welcome, {currentUser.username}!</h1>
-          <button onClick={handleLogout}>Logout</button> */}
+          {/* After successful login */}          
           <Router>
             <div>
               <Routes>
                 <Route
                   path="/"
-                  element={carsData.map((item) => (
-                    <Card
-                      key={item.id}
-                      id={item.id}
-                      brand={item.brand}
-                      model={item.model}
-                      year={item.year}
-                      color={item.color}
-                      price={item.price}
-                      description={item.description}
-                      image = {item.image}
-                    />
-                  ))}
+                  element=
+                  <div className="grid grid-cols-4 gap-4">
+                    {carsData.map((item) => (
+                      <Card
+                        key={item.id}
+                        id={item.id}
+                        brand={item.brand}
+                        model={item.model}
+                        year={item.year}
+                        color={item.color}
+                        price={item.price}
+                        description={item.description}
+                        image = {item.image}
+                      />
+                    ))}
+                  </div>
                 />
                 <Route path="/details/:id" element={<Details carsData = {carsData} />} />
               </Routes>
