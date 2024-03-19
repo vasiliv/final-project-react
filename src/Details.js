@@ -14,6 +14,7 @@ const Details = ({ carsData }) => {
       <h1>{item.brand}</h1>
       <h2>{item.model}</h2>
       <h3>{item.year}</h3>
+      <img src={item.image} alt={`${item.brand} ${item.model}`} />
       <h4>{item.color}</h4>
       <p>{item.description}</p>
     </div>
