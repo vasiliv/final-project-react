@@ -8,9 +8,9 @@ const Card = ({ id, brand, model, year, color, image, description }) => {
         <h2>{model}</h2>
         <h3>{year}</h3>
         <h4>{color}</h4>
-        <img className="w-full" src={image} alt={`${brand} ${model}`} />
+        <img className="w-48 h-32" src={image} alt={`${brand} ${model}`} />
         <p>{description}</p>
-        <Link to={`/details/${id}`}>View Details</Link>
+        <Link to={`/details/${id}`} className="text-blue-500">View Details</Link>
       </div>
     </div>
   );
