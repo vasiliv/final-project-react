@@ -1,4 +1,7 @@
-const carsData = [
+// import { useState } from "react";
+// const [carsData, setCarsData] = useState([
+const carsData =
+[
   {
     "id": 1,
     "brand": "Toyota",
@@ -314,6 +317,6 @@ const carsData = [
     "color": "Purple",
     "description": "The Dodge Charger is a full-size sedan with powerful engine options, a spacious interior, and a muscular design."
   }
-];
+]
   
 export default carsData;
