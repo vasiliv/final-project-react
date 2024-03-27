@@ -50,6 +50,7 @@ function App() {
                 <Route
                   path="/"
                   element=
+                  <div>
                   <div className="grid grid-cols-4 gap-4">
                     {carsData?.slice(0, next)?.map((item) => (
                       <Card
@@ -64,10 +65,10 @@ function App() {
                         image = {item.image}
                         onFavoriteToggle={handleFavoriteToggle}
                       />
-                    ))}
-                    <h2 className="text-3xl font-bold mt-8">Favorites</h2>
-                    <Favorites favorites={favorites} data={carsData} />
-                    {next < carsData?.length && (
+                    ))}                    
+                                                         
+                  </div>
+                  <div>{next < carsData?.length && (
                       <div className="flex justify-end mt-4">
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" onClick={handleMoreImage}>
                           Load more
@@ -75,6 +76,11 @@ function App() {
                       </div>
                     )}                    
                   </div>
+                  <div>
+                    <h2 className="text-3xl font-bold mt-8">Favorites</h2>
+                    <Favorites favorites={favorites} data={carsData} />   
+                  </div>                    
+                </div>
                 />
                 <Route path="/details/:id" element={<Details carsData = {carsData} />} />
                 {/* <Route path="/favorites" element={<Favorites favorites={favorites} data={carsData} />} /> */}
