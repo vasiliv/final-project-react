@@ -52,7 +52,7 @@ const carsData =
     "brand": "Volkswagen",
     "model": "Jetta",
     "year": 2018,
-    "image": "/img/1.jpg",
+    "image": "/img/6.jpg",
     "color": "Gray",
     "description": "The Volkswagen Jetta is a compact sedan known for its upscale interior and responsive handling."
   },
@@ -61,7 +61,7 @@ const carsData =
     "brand": "BMW",
     "model": "3 Series",
     "year": 2022,
-    "image": "/img/1.jpg",
+    "image": "/img/7.jpg",
     "color": "Silver",
     "description": "The BMW 3 Series is a luxury compact car that offers a balance of performance and comfort."
   },
@@ -70,7 +70,7 @@ const carsData =
     "brand": "Mercedes-Benz",
     "model": "C-Class",
     "year": 2020,
-    "image": "/img/1.jpg",
+    "image": "/img/8.jpg",
     "color": "Black",
     "description": "The Mercedes-Benz C-Class is a luxury sedan with a refined interior and powerful engine options."
   },
@@ -79,7 +79,7 @@ const carsData =
     "brand": "Audi",
     "model": "A4",
     "year": 2021,
-    "image": "/img/1.jpg",
+    "image": "/img/9.jpg",
     "color": "Blue",
     "description": "The Audi A4 is a premium compact sedan known for its sophisticated design and advanced technology."
   },
@@ -88,7 +88,7 @@ const carsData =
     "brand": "Lexus",
     "model": "ES",
     "year": 2019,
-    "image": "/img/1.jpg",
+    "image": "/img/10.jpg",
     "color": "White",
     "description": "The Lexus ES is a luxury sedan with a spacious cabin, smooth ride, and high-quality materials."
   },
@@ -106,7 +106,7 @@ const carsData =
     "brand": "Kia",
     "model": "Optima",
     "year": 2018,
-    "image": "/img/1.jpg",
+    "image": "/img/2.jpg",
     "color": "Black",
     "description": "The Kia Optima is a midsize sedan known for its spacious interior, smooth ride, and long warranty."
   },
@@ -115,7 +115,7 @@ const carsData =
     "brand": "Subaru",
     "model": "Legacy",
     "year": 2017,
-    "image": "/img/1.jpg",
+    "image": "/img/3.jpg",
     "color": "Blue",
     "description": "The Subaru Legacy is an all-wheel-drive sedan with a comfortable interior and strong safety scores."
   },
@@ -124,7 +124,7 @@ const carsData =
     "brand": "Mazda",
     "model": "Mazda6",
     "year": 2020,
-    "image": "/img/1.jpg",
+    "image": "/img/4.jpg",
     "color": "Silver",
     "description": "The Mazda Mazda6 is a midsize sedan with athletic handling, upscale interior, and fuel-efficient engines."
   },
@@ -133,7 +133,7 @@ const carsData =
     "brand": "Tesla",
     "model": "Model 3",
     "year": 2022,
-    "image": "/img/1.jpg",
+    "image": "/img/5.jpg",
     "color": "Red",
     "description": "The Tesla Model 3 is an all-electric sedan with impressive acceleration, long range, and advanced technology."
   },
@@ -142,7 +142,7 @@ const carsData =
     "brand": "Volvo",
     "model": "S60",
     "year": 2021,
-    "image": "/img/1.jpg",
+    "image": "/img/6.jpg",
     "color": "White",
     "description": "The Volvo S60 is a luxury sedan known for its safety features, comfortable seats, and elegant design."
   },
@@ -151,7 +151,7 @@ const carsData =
     "brand": "Chrysler",
     "model": "300",
     "year": 2019,
-    "image": "/img/1.jpg",
+    "image": "/img/7.jpg",
     "color": "Gray",
     "description": "The Chrysler 300 is a full-size sedan with a spacious interior, powerful engine options, and smooth ride."
   },
@@ -160,7 +160,7 @@ const carsData =
     "brand": "Buick",
     "model": "Regal",
     "year": 2018,
-    "image": "/img/1.jpg",
+    "image": "/img/8.jpg",
     "color": "Black",
     "description": "The Buick Regal is a midsize sedan with a comfortable ride, upscale cabin, and generous trunk space."
   },
@@ -169,7 +169,7 @@ const carsData =
     "brand": "Jaguar",
     "model": "XE",
     "year": 2020,
-    "image": "/img/1.jpg",
+    "image": "/img/9.jpg",
     "color": "Blue",
     "description": "The Jaguar XE is a luxury compact sedan with sporty handling, upscale interior, and powerful engine options."
   },
@@ -178,7 +178,7 @@ const carsData =
     "brand": "Lincoln",
     "model": "MKZ",
     "year": 2019,
-    "image": "/img/1.jpg",
+    "image": "/img/10.jpg",
     "color": "Silver",
     "description": "The Lincoln MKZ is a luxury sedan with a comfortable ride, spacious seats, and a long list of standard features."
   },

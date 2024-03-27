@@ -2,8 +2,7 @@
 const Favorites = ({ favorites, data }) => {
     //console.log(data);
     //console.log(favorites);
-    return (
-      // <div className="flex flex-wrap justify-center">
+    return (      
       <div className="grid grid-cols-4 gap-4">      
         {favorites.map((id) => {
           const favoriteCard = data.find((item) => item.id === id);
